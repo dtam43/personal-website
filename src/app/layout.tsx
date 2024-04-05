@@ -1,7 +1,5 @@
 import '@/app/globals.css';
-import '@radix-ui/themes/styles.css';
 import type { Metadata } from 'next';
-import Head from 'next/head';
 
 export const metadata: Metadata = {
   title: 'David Tam',
@@ -15,9 +13,6 @@ export default async function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="icon" href="@/favicon.ico" />
-      </Head>
       <body>
         <div className="w-full h-full">
           <div className="mx-12">
