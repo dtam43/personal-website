@@ -94,7 +94,7 @@ export default function MainPage() {
                         </div>
                     </div>
                     <div className="grid sm:grid-cols-2 lg:grid-cols-10 sm:mx-2 lg:mx-10">
-                        <div className="col-span-7 border-[1px] rounded-3xl border-tertiary lg:max-h-[620px] text-accent max-w-500">
+                        <div className="col-span-7 border-[1px] rounded-3xl border-tertiary lg:max-h-500 text-accent max-w-500">
                             <Link href="/oec">
                                 <div className="rounded-lg text-accent">
                                     <div className="relative w-full h-96 rounded-t-3xl overflow-hidden">
@@ -117,14 +117,14 @@ export default function MainPage() {
                                 </div>
                             </Link>
                         </div>
-                        <div className="col-span-3 sm:mt-10 lg:my-0 flex flex-col h-full ml-10 p-10 justify-between items-center border-[1px] rounded-3xl border-tertiary text-accent">
+                        <div className="col-span-3 mt-10 lg:my-0 flex flex-col lg:h-full lg:ml-10 p-10 justify-between items-center border-[1px] rounded-3xl border-tertiary text-accent">
                             <Lottie animationData={game}></Lottie>
-                            <p className="text-lg font-courier text-secondary font-bold text-center">Hello, World!</p>
-                            <p className="text-lg font-courier text-accent">My name is David, and I am a third-year full-stack Software Engineering student passionate in the process, from ideation to creation.</p>
+                            <p className="text-lg pt-5 lg:pt-0 font-courier text-secondary font-bold text-center">Hello, World!</p>
+                            <p className="text-md xl:text-lg pt-5 lg:pt-0 font-courier text-accent">My name is David, and I am a third-year full-stack Software Engineering student passionate in the process, from ideation to creation.</p>
                         </div>
                     </div>
                     <div>
-                        <h2 className="text-lg font-bold text-accent sm:mx-2 lg:mx-10 mt-10 mb-5">ACADEMIC ACHIVEMENTS<span className="text-m font-normal font-courier"> - 4.0 Cumulative GPA (2021-2024)</span></h2>
+                        <h2 className="text-lg font-bold text-accent mx-2 lg:mx-10 mt-10 mb-5">ACADEMIC ACHIEVEMENTS<span className="text-m font-normal font-courier"> - 4.0 Cumulative GPA (2021-2024)</span></h2>
                     </div>
                     <div className="grid sm:grid-cols-2 lg:grid-cols-10 sm:mx-2 lg:mx-10 mb-10 max-h-[150px]">
                         <div className="col-span-7 border-[1px] rounded-3xl border-tertiary text-accent max-h-[150px]p-10 max-w-500 overflow-hidden flex items-center">

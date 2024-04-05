@@ -26,7 +26,7 @@ export default async function WEC() {
                         Without the development of a robust infrastructure, many communities will continue to be ill-prepared for these life-changing
                         and life-ending events. This sobering truth is an example of one of many cases in which software can help alleviate the
                         pain points and bottlenecks that allow such communities to continue to be ravaged today. </p>
-                    <img className="max-w-4xl mx-auto mt-10 rounded-3xl" src={problem.src}></img>
+                    <img className="max-w-sm lg:max-w-4xl mx-auto mt-10 rounded-3xl" src={problem.src}></img>
 
                     <h2 className="text-accent text-lg font-bold mb-5 sm:mx-2 lg:mx-20 mt-10">PROPOSED SOLUTION</h2>
                     <h3 className="text-accent text-xl font-bold text-secondary font-courier sm:mx-2 lg:mx-20 mb-2">Giving the Gift of Information.</h3>
@@ -42,7 +42,7 @@ export default async function WEC() {
                         ability to act when disaster strikes.</p>
 
                     <h2 className="text-accent text-lg font-bold mb-5 sm:mx-2 lg:mx-20 mt-10">IMPLEMENTATION OVERVIEW</h2>
-                    <img className="max-w-4xl mx-auto my-10 rounded-3xl" src={overview.src}></img>
+                    <img className="max-w-sm lg:max-w-4xl mx-auto my-10 rounded-3xl" src={overview.src}></img>
                     <h3 className="text-accent text-xl font-bold text-secondary font-courier sm:mx-2 lg:mx-20 mb-2">Available at Your Fingertips.</h3>
                     <p className="text-accent text-lg sm:mx-2 lg:mx-20">At the core of Tempest Tracker is Remix, a full-stack framework that incentivises
                         web standards. It uses PHP-like design principles, prioritizing server-side data retrieval while also using modern tools such as React.
@@ -72,7 +72,7 @@ export default async function WEC() {
                     <p className="text-accent text-lg sm:mx-2 lg:mx-20">The most important tool to ensure the longevity of Tempest Tracker is its ability
                         to dynamically update the natural disasters in the network. Using a carefully curated submission form, users can report on natural
                         disasters yet to be documented in order to spread awareness to their community. </p>
-                    <img className="max-w-4xl mx-auto mt-10 rounded-3xl" src={event.src}></img>
+                    <img className="max-w-sm lg:max-w-4xl mx-auto mt-10 rounded-3xl" src={event.src}></img>
                     <p className="text-accent text-lg sm:mx-2 lg:mx-20 mt-10">Inputs are carefully validated to ensure accurate
                         measurements for location and intensity, but categorizations are left open-ended to allow users to accurately convey the event.
                         However, should a certain report be deemed falsifiable, Tempest Tracker also offers the option to remove disasters from its network.

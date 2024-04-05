@@ -53,7 +53,7 @@ export default async function RuinRaider() {
                         <li><span className="font-bold text-secondary">Sprite</span>: Defines the sprite of the object.</li>
                         <li><span className="font-bold text-secondary">Light</span>: Defines the light source of the object.</li>
                     </ul>
-                    <img className="max-w-4xl mx-auto mt-10 rounded-3xl" src={level.src}></img>
+                    <img className="max-w-sm lg:max-w-4xl mx-auto mt-10 rounded-3xl" src={level.src}></img>
                     <p className="text-accent text-lg sm:mx-2 lg:mx-20 mt-10">The levels for the game were created in Tiled, a software that allows
                         one to export layers of drawn tiles as a collection of surfaces. This
                         made it easy to extract objects from the levels; walls could be
@@ -66,7 +66,7 @@ export default async function RuinRaider() {
                     <h3 className="text-accent text-xl font-bold text-secondary font-courier sm:mx-2 lg:mx-20 mb-2">On the Hunt.</h3>
                     <p className="text-accent text-lg sm:mx-2 lg:mx-20">Ruin Raider utilizes a custom A* pathfinding algorithm that allows the
                         enemies to track and chase the player around obstacles.</p>
-                    <div className="max-w-4xl mx-auto mt-10">
+                    <div className="max-w-sm lg:max-w-4xl mx-auto mt-10">
                         <SyntaxHighlighter language="python" style={coldarkDark} className=" border-[1px] rounded-3xl border-secondary">
                             {`# Loop through the open nodes
 while len(toSearch) > 0:
@@ -123,7 +123,7 @@ while len(toSearch) > 0:
                     <h3 className="text-accent text-xl font-bold text-secondary font-courier sm:mx-2 lg:mx-20 mb-2">An Immersive Dungeon-Crawling Experience.</h3>
                     <p className="text-accent text-lg sm:mx-2 lg:mx-20">This game utilizes an open-source lighting engine with real-time
                         dynamic rendering to give the illusion of raytraced lighting.</p>
-                    <img className="max-w-4xl mx-auto mt-10 rounded-3xl" src={lighting.src}></img>
+                    <img className="max-w-sm lg:max-w-4xl mx-auto mt-10 rounded-3xl" src={lighting.src}></img>
                     <p className="text-accent text-lg sm:mx-2 lg:mx-20 mt-10">The idea behind the lighting engine is that it layers pygame surfaces
                         on top of all other rendered sprites, as they have unique rendering
                         flags that allow them to be dynamically rendered. The source code for
@@ -135,12 +135,12 @@ while len(toSearch) > 0:
                         characters, each with their own unique stats and playstyles. The character select screen, accessible from the main menu. Switching
                         characters does not reset the player's level, but instead modifies
                         their current HP and base speed.</p>
-                    <img className="max-w-4xl mx-auto mt-10 rounded-3xl" src={char.src}></img>
+                    <img className="max-w-sm lg:max-w-4xl mx-auto mt-10 rounded-3xl" src={char.src}></img>
                     <p className="text-accent text-lg sm:mx-2 lg:mx-20 mt-10">Ruin Raider also includes a player progression system where players
                         get stronger by defeating enemies. After progressing far enough,
                         players are able to take on the ArctBeast, a final boss that offers a
                         unique gameplay mechanic and valuable rewards.</p>
-                    <img className="max-w-4xl mx-auto mt-10 rounded-3xl" src={boss.src}></img>
+                    <img className="max-w-sm lg:max-w-4xl mx-auto mt-10 rounded-3xl" src={boss.src}></img>
 
                     <h2 className="text-accent text-lg font-bold mb-5 sm:mx-2 lg:mx-20 mt-10">FUTURE IMPROVEMENTS</h2>
                     <h3 className="text-accent text-xl font-bold text-secondary font-courier sm:mx-2 lg:mx-20 mb-2">What's Next?</h3>
