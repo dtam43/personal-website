@@ -4,8 +4,8 @@ import type { Metadata } from 'next';
 import Footer from '@/components/footer';
 
 export const metadata: Metadata = {
-  title: 'OLLI — CHEER',
-  description: 'Developed by Team 11 for SE 3350B'
+  title: 'David Tam',
+  description: 'David Tam\'s personal website.'
 };
 
 export default async function RootLayout({
@@ -23,7 +23,6 @@ export default async function RootLayout({
             </div>
           </div>
         </div>
-        <Footer />
       </body>
     </html>
   );
