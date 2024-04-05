@@ -1,9 +1,9 @@
 import Link from 'next/link';
-import Footer from '@/components/footer';
-import oecSplash from '@/assets/oec_splash.jpg';
-import wecSplash from '@/assets/wec_splash.png';
-import pickproSplash from '@/assets/pickpro_splash.png';
-import ruinraiderSplash from '@/assets/ruinraider_splash.jpeg';
+import Footer from '../..//components/footer';
+import oecSplash from '../../assets/oec_splash.jpg';
+import wecSplash from '../../assets/wec_splash.png';
+import pickproSplash from '../../assets/pickpro_splash.png';
+import ruinraiderSplash from '../../assets/ruinraider_splash.jpeg';
 
 export default async function Projects() {
 	return (

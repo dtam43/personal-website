@@ -1,12 +1,12 @@
 'use client'
 import Lottie from 'lottie-react';
-import motherboard from '@/assets/motherboard.json';
-import pencil from '@/assets/pencil.json';
-import game from '@/assets/game.json';
+import motherboard from '../assets/motherboard.json';
+import pencil from '../assets/pencil.json';
+import game from '../assets/game.json';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Footer from './footer';
-import splashImage from '@/assets/oec_splash.jpg';
+import splashImage from '../assets/oec_splash.jpg';
 
 type Course = {
     name: string;
