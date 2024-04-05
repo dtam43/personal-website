@@ -14,13 +14,13 @@ type Course = {
 };
 
 const courses: Course[] = [
-    { name: 'UWO In-Course Scholarships Year II & Year III', grade: '2022, 2023' },
-    { name: 'Faculty Association Scholarship in Engineering', grade: '2022' },
-    { name: 'Chris Lakich and Family Engineering Award', grade: '2023' },
     { name: 'ES 1036 | Programming Fundamentals for Engineers', grade: '100%' },
     { name: 'NMM 1412 | Calculus Fundamentals for Engineers I', grade: '100%' },
     { name: 'NMM 1411 | Linear Algebra Analysis for Engineers', grade: '94%' },
     { name: 'ES 1050 | Foundations of Engineering Practice', grade: '97%' },
+    { name: 'UWO In-Course Scholarships Year II & Year III', grade: '2022, 2023' },
+    { name: 'Faculty Association Scholarship in Engineering', grade: '2022' },
+    { name: 'Chris Lakich and Family Engineering Award', grade: '2023' },
     { name: 'ECE 2238 | Intro to Electrical Engineering', grade: '96%' },
     { name: 'MATH 2151 | Discrete Structures for Engineering', grade: '93%' },
     { name: 'NMM 2270 | Advanced Mathematics for Engineering', grade: '93%' },
@@ -117,21 +117,21 @@ export default function MainPage() {
                                 </div>
                             </Link>
                         </div>
-                        <div className="col-span-3 flex flex-col h-full ml-10 p-10 justify-between items-center border-[1px] rounded-3xl border-tertiary text-accent">
+                        <div className="col-span-3 sm:mt-10 lg:my-0 flex flex-col h-full ml-10 p-10 justify-between items-center border-[1px] rounded-3xl border-tertiary text-accent">
                             <Lottie animationData={game}></Lottie>
                             <p className="text-lg font-courier text-secondary font-bold text-center">Hello, World!</p>
                             <p className="text-lg font-courier text-accent">My name is David, and I am a third-year full-stack Software Engineering student passionate in the process, from ideation to creation.</p>
                         </div>
                     </div>
                     <div>
-                        <h2 className="text-lg font-bold text-accent sm:mx-2 lg:mx-10 mt-10 mb-5">ACADEMICS<span className="text-m font-normal font-courier"> - 4.0 Cumulative GPA (2021-2024)</span></h2>
+                        <h2 className="text-lg font-bold text-accent sm:mx-2 lg:mx-10 mt-10 mb-5">ACADEMIC ACHIVEMENTS<span className="text-m font-normal font-courier"> - 4.0 Cumulative GPA (2021-2024)</span></h2>
                     </div>
                     <div className="grid sm:grid-cols-2 lg:grid-cols-10 sm:mx-2 lg:mx-10 mb-10 max-h-[150px]">
                         <div className="col-span-7 border-[1px] rounded-3xl border-tertiary text-accent max-h-[150px]p-10 max-w-500 overflow-hidden flex items-center">
                             <motion.div
                                 className="flex items-center justify-center"
                                 initial={{ x: 900 }}
-                                animate={{ x: -5400 }}
+                                animate={{ x: -6000 }}
                                 transition={{ ease: "linear", duration: 30, repeat: Infinity }}
                             >
                                 {courses.map((course, index) => (
@@ -142,7 +142,7 @@ export default function MainPage() {
                                 ))}
                             </motion.div>
                         </div>
-                        <div className="col-span-3 flex justify-center items-center max-h-[150px] lg:max-w-[300px] ml-10">
+                        <div className="col-span-3 sm:hidden lg:flex justify-center items-center max-h-[150px] lg:max-w-[300px] ml-10">
                             <Lottie animationData={pencil}></Lottie>
                         </div>
                     </div>

@@ -6,7 +6,7 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { coldarkDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import player from '../../assets/pickpro/player_page.gif';
 
-const skills: string[] = ["Flutter", "Dart", "React", "CSS", "Figma", "Apple Development Suite", "Xcode", "Android Studio", "Mobile Development"];
+const skills: string[] = ["Flutter", "Dart", "React.js", "CSS", "Figma", "Apple Development Suite", "Xcode", "Android Studio", "Mobile Development"];
 
 export default async function PickPro() {
     return (
@@ -14,7 +14,7 @@ export default async function PickPro() {
             <div className="flex flex-col items-center justify-center sm:mx-2 lg:mx-10">
                 <div className="container mx-auto">
                     <h1 className="text-accent font-courier mb-10 sm:mx-2 lg:mx-20">Pick Pro</h1>
-                    <img className="mx-auto" src={logo.src}></img>
+                    <img className="mx-auto rounded-3xl" src={logo.src}></img>
                     <h2 className="text-accent text-lg text-center mb-10 sm:mx-2 lg:mx-20">Empowering guitarists to learn their favourite songs.</h2>
                     <div className="flex flex-wrap justify-center items-center gap-6 max-w-4xl mx-auto">
                         {skills.map((skill, index) => {
