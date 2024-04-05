@@ -142,7 +142,7 @@ export default function MainPage() {
                                 ))}
                             </motion.div>
                         </div>
-                        <div className="col-span-3 sm:hidden lg:flex justify-center items-center max-h-[150px] lg:max-w-[300px] ml-10">
+                        <div className="col-span-3 hidden lg:flex justify-center items-center max-h-[150px] lg:max-w-[300px] ml-10">
                             <Lottie animationData={pencil}></Lottie>
                         </div>
                     </div>
