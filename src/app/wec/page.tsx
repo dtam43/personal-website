@@ -26,7 +26,7 @@ export default async function WEC() {
                         Without the development of a robust infrastructure, many communities will continue to be ill-prepared for these life-changing
                         and life-ending events. This sobering truth is an example of one of many cases in which software can help alleviate the
                         pain points and bottlenecks that allow such communities to continue to be ravaged today. </p>
-                    <img className="w-4xl mx-auto mt-10 rounded-3xl" src={problem.src}></img>
+                    <img className="max-w-4xl mx-auto mt-10 rounded-3xl" src={problem.src}></img>
 
                     <h2 className="text-accent text-lg font-bold mb-5 sm:mx-2 lg:mx-20 mt-10">PROPOSED SOLUTION</h2>
                     <h3 className="text-accent text-xl font-bold text-secondary font-courier sm:mx-2 lg:mx-20 mb-2">Giving the Gift of Information.</h3>

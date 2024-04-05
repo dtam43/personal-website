@@ -106,14 +106,14 @@ export default async function PickPro() {
                     </div>
 
                     <h2 className="text-accent text-lg font-bold mb-5 sm:mx-2 lg:mx-20 mt-10">CHORDS REFERENCE</h2>
-                    <h3 className="text-accent text-xl font-bold text-secondary font-courier sm:mx-2 lg:mx-20 mb-2">All Your Learning Needs, In One Place</h3>
+                    <h3 className="text-accent text-xl font-bold text-secondary font-courier sm:mx-2 lg:mx-20 mb-2">All Your Learning Needs, In One Place.</h3>
                     <p className="text-accent text-lg sm:mx-2 lg:mx-20">PickPro features a searchable chords list that includes a variation
                         of every single guitar chord. Each chord can be easily found by searching for the note name as
                         well as the tune.</p>
                     <img className="mx-auto mt-10" src={chords.src}></img>
 
                     <h2 className="text-accent text-lg font-bold mb-5 sm:mx-2 lg:mx-20 mt-10">AUDIO PLAYER</h2>
-                    <h3 className="text-accent text-xl font-bold text-secondary font-courier sm:mx-2 lg:mx-20 mb-2">Learn Your Favourite Songs, at Your Own Pace</h3>
+                    <h3 className="text-accent text-xl font-bold text-secondary font-courier sm:mx-2 lg:mx-20 mb-2">Learn Your Favourite Songs, at Your Own Pace.</h3>
                     <p className="text-accent text-lg sm:mx-2 lg:mx-20">The main functionality of PickPro is its audio player. By uploading
                         their own music to the app, users can play their songs at custom
                         and precise playback speeds. Users can fine-tune the desired playback speed within 2 decimal

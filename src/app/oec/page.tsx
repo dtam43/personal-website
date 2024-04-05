@@ -31,7 +31,7 @@ export default async function OEC() {
                         in handwriting when in fact, this skill remains ever important in the real world. This problem is compounded by learning
                         disabilities; presently, 1 in 3 children experience difficulty in writing, which often coincides with dysgraphia. But how
                         can one address the monotony in handwriting with consideration for diminished attention span among youth? </p>
-                    <img className="w-4xl mx-auto mt-10 rounded-3xl" src={problem.src}></img>
+                    <img className="max-w-4xl mx-auto mt-10 rounded-3xl" src={problem.src}></img>
 
                     <h2 className="text-accent text-lg font-bold mb-5 sm:mx-2 lg:mx-20 mt-10">PROPOSED SOLUTION</h2>
                     <h3 className="text-accent text-xl font-bold text-secondary font-courier sm:mx-2 lg:mx-20 mb-2">A Fun Way to Train.</h3>
@@ -39,7 +39,7 @@ export default async function OEC() {
                         strengths of engaging and repeatable mobile gameplay. Letter Ninja challenges the user to recreate sequences of letters with
                         precision and speed. Compared to traditional tracing books, it brings upon a layer of interactivity and competition with timed
                         challenges and high scores.</p>
-                    <img className="w-4xl mx-auto mt-10 rounded-3xl" src={solution.src}></img>
+                    <img className="max-w-4xl mx-auto mt-10 rounded-3xl" src={solution.src}></img>
 
                     <h2 className="text-accent text-lg font-bold mb-5 sm:mx-2 lg:mx-20 mt-10">IMPLEMENTATION OVERVIEW</h2>
                     <img className="max-w-4xl mx-auto my-10 rounded-3xl border-accent border-[1px]" src={overview.src}></img>
